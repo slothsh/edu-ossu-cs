@@ -17,7 +17,9 @@
 **Numerical Example:**
 
 **Square root of number:**
+
 - Declarative approach
+
 $$let \space \sqrt{x} \space = y \space | \space y^2 \space = x$$
 
 - Imperative approach
@@ -25,8 +27,9 @@ $$let \space \sqrt{x} \space = y \space | \space y^2 \space = x$$
  Old 'recipe'[^1] for imperatively determining the square root
  1. let *g* = guess
  2. if g * g is close to x -> stop, return g
- 3. else -> make new guess by averaging g and x/g
+ 3. else -> make new guess by averaging g and x/g i.e. (g + x/g) / 2
  4. Repeat prior steps until right guess is made, using result of step 3 as step 1's guess
+
 ___
 
-[^1]: [Hero of Alexandria - Wikipedia](https://en.wikipedia.org/wiki/Hero_of_Alexandria)
+[^1]: [Heron of Alexandria - Wikipedia](https://en.wikipedia.org/wiki/Hero_of_Alexandria)

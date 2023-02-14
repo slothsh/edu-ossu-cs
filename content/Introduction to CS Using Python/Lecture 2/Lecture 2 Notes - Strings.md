@@ -25,7 +25,7 @@ print(full_name)
 # foobar
 ```
 
-\*an operator, such as the `+` operator, is said to be *overloaded* when it behaves differently in different contexts [^1]
+an operator, such as the `+` operator, is said to be *overloaded* when it behaves differently in different contexts [^1]
 i.e: given different set of types, the procedure which the operator performs is dependent on the given types
 
 **String Successive Concatenation**

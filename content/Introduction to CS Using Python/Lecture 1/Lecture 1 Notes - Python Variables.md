@@ -1,6 +1,9 @@
 # MIT 600.1 - Lecture 1
+
 Instructor: Dr. Ana Bell
+
 Video: What is Computation?
+
 Link: https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/lecture-1-what-is-computation/
 
 - The \= sign is the assignment operator in python

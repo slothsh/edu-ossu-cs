@@ -1,31 +1,41 @@
 # Unit 600.1 - Video: Operators and Branching
 
+Instructor: Dr. Ana Bell
+
+Video: Branching and Iteration
+
+Link: https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/lecture-2-branching-and-iteration/
+
 **Comparison Operators for ints and floats**
 
-Logical operators take a lhs and rhs and compares them. The return type is a bool
+Logical operators take a lhs and rhs and compares them. The return type is a bool.
 
-\> - greater than -> returns a True if lhs is greater than rhs
-\< - less than -> returns True if lhs is less than rhs
-\>\= - greater than and equals -> returns True if lhs is greater than and equals to rhs
-\<\= less than and equals -> returns True if lhs is less than and equals to rhs
-\=\= equals -> returns True if lhs is exactly equals to rhs
-\!\= not equals -> returns True if lhs is anythin but exactly equals to rhs
+* \> - greater than -> returns a True if lhs is greater than rhs
+* \< - less than -> returns True if lhs is less than rhs
+* \>\= - greater than and equals -> returns True if lhs is greater than and equals to rhs
+* \<\= less than and equals -> returns True if lhs is less than and equals to rhs
+* \=\= equals -> returns True if lhs is exactly equals to rhs
+* \!\= not equals -> returns True if lhs is anythin but exactly equals to rhs
 
-*and* -> logical and; short-circuits logical expression when any expression evaluates to false
-*or* -> logical or; short-circuits logical expression when any expression evaluates to true
-*not* -> negates bool
+* *and* -> logical and; short-circuits logical expression when any expression evaluates to false
+* *or* -> logical or; short-circuits logical expression when any expression evaluates to true
+* *not* -> negates bool
 
 **Conditional Branching in a Program**
 
 A branching program consists of:
+
 - a *test*
 - a block of code to execute if the test returns true
 - a block of code to execute if the test returns false
 
-Python doesn't require a block of code to perform if the test evaluates to false. It will simply continue with the rest of the program
+Python doesn't require a block of code to perform if the test evaluates to
+false. It will simply continue with the rest of the program.
 
-The *if* operator in Python is used to declare a conditional test
-The *else* statement, which must succeed an *if-block* is used to declare the false block of code for a false test
+The *if* operator in Python is used to declare a conditional test.
+
+The *else* statement, which must succeed an *if-block* is used to declare the
+false block of code for a false test.
 
 ```python
 if 1 == 1:
@@ -34,7 +44,7 @@ else:
 	print('false block')
 ```
 
-*if-blocks* can be nested
+*if-blocks* can be nested:
 
 ```python
 if True:
@@ -47,7 +57,8 @@ else:
 	print('unreachable false block')	
 ```
 
-*elif* operator, which must succeed an *if-block*, is used to have a follow up test if the preceding *if-block*'s test failed
+*elif* operator, which must succeed an *if-block*, is used to have a follow up
+test if the preceding *if-block*'s test failed:
 
 ```python
 if 1 == 1:
@@ -64,7 +75,12 @@ if 1 == 1 and 2 == 2 or 3 == 3:
 	# do something if 3 == 3
 ```
 
-Branching allows a programmer to write *linear* programs - which means that a program will always be evaluated in constant time
-i.e a program will always be as long as the amount of steps in the program
+Branching allows a programmer to write *linear* programs - which means that a
+program will always be evaluated in constant time i.e a program will always be
+as long as the amount of steps in the program.
+
+Branching structures operate in *constant time* because it only executes once
+iteration allows us to use the same block of code multiple times, therefore, it
+operates in time that is proportional to the amount of iterations.
 
 ___
